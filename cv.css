@@ -29,8 +29,7 @@ body, html{
     margin-top: 5%;
     border: 2px solid black;
     border-radius:100px;
-    width: 8vw;
-    height: 18vh;
+   width:200px
 }
 /*dit is het bovenste gedeelte van mijn linker div met mijn foto en een p deze worden altijd gecentreerd en padding van 5%*/
 .personal{
@@ -64,7 +63,7 @@ body, html{
 .right{
     width:100vw;
     padding-left: 5%;
-    padding-top: 5%;
+    /* padding-top: 5%; */
     background: black;
     color: white;
     border-bottom: 2px solid black;
@@ -80,11 +79,15 @@ body, html{
     font-size: 20px;
 }
 
+.right>div>ul>li{
+    font-size: 20px;
+}
 /*linken wit maken en underline weghalen en een kleine margin tegenover de list items*/
 .right>div>ul>li>a{
     color: white;
     text-decoration: none;
     margin-left: 5%;
+    font-size: 20px;
 }
 
 /*container waar mijn progress bar in zit*/
@@ -99,9 +102,8 @@ body, html{
 .skill {
     background-color: rgba(64, 227, 11, 0.87);
     /*color: white;*/
-    padding:0.5%;
+    /* padding:0.5%; */
     text-align: right;
-    /*font-size: 15px;*/
     color: black;
     border-radius: 15px;
     font-weight:bold;
